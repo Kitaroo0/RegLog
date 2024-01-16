@@ -26,6 +26,7 @@ Import the database schema from the schema.sql file.
 ## Configuration
 
 Configure the database connection parameters in the db/connection.js file.
+
 const connection = mysql.createConnection({
 
   host: '127.0.0.1',
