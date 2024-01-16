@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>User Login</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="registrationForm" action="/login" method="post">
+            <label for="username"><img src="../images/user.png"> Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter username" required>
+
+            <label for="password"><img src="../images/password.png"> Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+
+            <button type="submit" class="btn btn-primary">Login</button>
+            <button class="btn btn-primary" id="reg"><a href="/register">Register</a></button>
+        </form>
+    </div>
+</body>
+</html>
