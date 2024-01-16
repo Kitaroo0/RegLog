@@ -52,4 +52,4 @@ Upon successful login, visit http://localhost:3000/welcome for access to the pro
 Logout by visiting http://localhost:3000/logout.
 
 ## Notes
-I had to remove the "node_modules" directory from the reg log folder, since there are 1000+ files there and it cannot be added to the github.
+I had to remove the "node_modules" directory from the "RegLog" folder, since there are 1000+ files there and it cannot be added to the github.
