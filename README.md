@@ -10,11 +10,11 @@
 
 ## Installation
 
-1. Clone the repository:
-   git clone https://github.com/your-username/your-repository.git
+Clone the repository:
+git clone https://github.com/your-username/your-repository.git
    
-   Install dependencies:
-   npm install
+Install dependencies:
+npm install
    
 ## Database Setup
 I used phpMyAdmin MySQL as a database.
